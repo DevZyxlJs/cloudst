@@ -1,4 +1,4 @@
-> 🐇 **Proximamente ::* *Se agregará el ytmp3, ytmp4, stickers search y stickers downloaders*
+> 🐇 **Proximamente ::** *Se agregará el ytmp3, ytmp4, stickers search y stickers downloaders*
 
 ## 🫛 **CloudST - MODULO**
 
