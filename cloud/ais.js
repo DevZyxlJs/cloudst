@@ -3,6 +3,7 @@ const axios = require('axios');
 const crypto = require('crypto');
 const uuid = require('uuid');
 const { v4: hehe } = uuid;
+const fetch = require('node-fetch');
 
 class Copilot {
   constructor() {
