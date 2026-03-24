@@ -22,7 +22,8 @@ npm install cloudst
 
 ---
 
-## 📂 Uso básico
+<details>
+<summary><strong>🌵 Scrapers</strong> — Cloud</summary>
 
 ```javascript
 import { wiki, mediafiredl, fbDownloader, ytplay } from 'cloudst'
@@ -43,6 +44,8 @@ console.log(fb)
 const yt = await ytplay('Bad Bunny - Tití Me Preguntó', '320k')
 console.log(yt)
 ```
+
+</details>
 
 ---
 
