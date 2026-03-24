@@ -1,4 +1,4 @@
-const { wiki } = require('./lib/wiki')
+const { wiki } = require('./cloud/wiki')
 
 module.exports = {
   wiki
