@@ -45,7 +45,7 @@ console.log(yt)
 </details>
 
 <details>
-<summary><strong>🌵 Sesrchs</summary>
+<summary><strong>🌵 Searchs</summary>
 
 ```javascript
 import { wiki } from 'cloudst'
