@@ -1,14 +1,13 @@
 {
   "name": "cloudst",
   "version": "1.0.5",
-  "description": "Scraper modular con axios y cheerio",
+  "description": "Modulo basico para los mini desarrolladores.",
   "main": "index.js",
   "keywords": [
     "scraper",
-    "crawler",
-    "parser",
-    "axios",
-    "cheerio"
+    "busquedas",
+    "dedcargas",
+    "inteligence"
   ],
   "author": {
     "name": "DevZyxlJs",
