@@ -16,7 +16,7 @@ npm install cloudst
 
 ## 🌱 Ejemplo en Package.json
 
-```bash
+```javascript
 "cloudst": "github:DevZyxlJs/cloudst"
 ```
 
