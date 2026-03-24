@@ -155,7 +155,7 @@ console.log(pin)
 
 ---
 
-> [!WARNING]
+> [!IMPORTANT]
 > Los scrapers generan **JSON dinámicos** que dependen de la estructura actual del servicio.  
 > Ten en cuenta que estos datos **no siempre son precisos ni estables**, ya que las plataformas pueden cambiar su HTML o API en cualquier momento.  
 > Para depurar y validar la salida, se recomienda usar `console.log` y revisar los objetos completos antes de integrarlos en tu bot.
