@@ -28,7 +28,7 @@ npm install cloudst
 
 ---
 
-## 🧩 Scrapers!
+## 🧩 Codigos!
 
 <details>
 <summary><strong>🌵 Downloaders</strong></summary>
