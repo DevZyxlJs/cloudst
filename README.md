@@ -16,8 +16,9 @@ npm install cloudst
 ```bash
 import { wiki, mediafiredl, fbDownloader, ytplay } from 'cloudst'
 
-> Ejemplo Wikipedia (usa req/res de Express)
-await wiki(req, res)
+> Ejemplo Wikipedia
+const results = await wiki('Colombia')
+console.log(results)
 
 > Ejemplo Mediafire
 const mf = await mediafiredl('https://www.mediafire.com/file/xxxxxx')
