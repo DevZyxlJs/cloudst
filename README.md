@@ -42,7 +42,18 @@ console.log(fb)
 const yt = await ytplay('Bad Bunny - Tití Me Preguntó', '320k')
 console.log(yt)
 ```
+</details>
 
+<details>
+<summary><strong>🌵 Sesrchs</summary>
+
+```javascript
+import { wiki } from 'cloudst'
+
+// - Ejemplo Wikipedia
+const results = await wiki('Colombia')
+console.log(results)
+```
 </details>
 
 ---
