@@ -155,6 +155,12 @@ console.log(pin)
 
 ---
 
+> [!CAUTION]  
+> El módulo aún no está al 100% estable.  
+> Puede presentar fallas o cambios inesperados en sus scrapers debido a modificaciones en las plataformas.  
+
+---
+
 > [!IMPORTANT]
 > Los scrapers generan **JSON dinámicos** que dependen de la estructura actual del servicio.  
 > Ten en cuenta que estos datos **no siempre son precisos ni estables**, ya que las plataformas pueden cambiar su HTML o API en cualquier momento.  
