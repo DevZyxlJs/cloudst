@@ -67,10 +67,13 @@ console.log(yt)
   fileName: "Tití_Me_Preguntó.mp3"
 }
 */
+```
 </details>
 
 <details>
 <summary><strong>🌵 Searchs</summary>
+
+```javascript
 import { wiki } from 'cloudst'
 
 // - Ejemplo Wikipedia
@@ -83,6 +86,7 @@ console.log(results)
   { title: "Geografía de Colombia", snippet: "Colombia cuenta con regiones diversas..." }
 ]
 */
+```
 </details>
 
 ---
