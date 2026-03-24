@@ -6,6 +6,8 @@
 > Este proyecto es solo para divertirme y, con el tiempo, quedará obsoleto.
 > Puedes usar mi api que está mas avanzada y actualizada [Api](api.stellarwa.xyz)
 
+---
+
 > [!TIP]
 > Scraper modular en Node.js para distintas plataformas (Wikipedia, Mediafire, Facebook, YouTube, Pinterest y más...).  
 Diseñado para ser usado como **módulo** con `import` o `require` y ejecutado con `await`.
