@@ -1,7 +1,7 @@
 # cloudst
 
 > [!TIP]
-> Scraper modular en Node.js para distintas plataformas (Wikipedia, Mediafire, Facebook, YouTube).  
+> Scraper modular en Node.js para distintas plataformas (Wikipedia, Mediafire, Facebook, YouTube, Pinterest y más...).  
 Diseñado para ser usado como **módulo** con `import` o `require` y ejecutado con `await`.
 
 ---
