@@ -1,6 +1,6 @@
 {
   "name": "cloudst",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scraper modular con axios y cheerio",
   "main": "index.js",
   "keywords": [
