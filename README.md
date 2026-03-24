@@ -13,21 +13,21 @@ npm install cloudst
 
 ## 📂 Uso básico
 
+```bash
 import { wiki, mediafiredl, fbDownloader, ytplay } from 'cloudst'
 
-```bash
-> - Ejemplo Wikipedia (usa req/res de Express)
+$ Ejemplo Wikipedia (usa req/res de Express)
 await wiki(req, res)
 
-> - Ejemplo Mediafire
+$ Ejemplo Mediafire
 const mf = await mediafiredl('https://www.mediafire.com/file/xxxxxx')
 console.log(mf)
 
-> - Ejemplo Facebook
+$ Ejemplo Facebook
 const fb = await fbDownloader('https://www.facebook.com/watch/?v=xxxxxx')
 console.log(fb)
 
-> - Ejemplo YouTube Play
+$ Ejemplo YouTube Play
 const yt = await ytplay('Bad Bunny - Tití Me Preguntó', '320k')
 console.log(yt)
 ```
