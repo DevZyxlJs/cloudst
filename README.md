@@ -74,7 +74,7 @@ console.log(yt)
 <summary><strong>🌵 Searchs</summary>
 
 ```javascript
-import { wiki } from 'cloudst'
+import { wiki, tiktokSearch, pinterestSearch } from 'cloudst'
 
 // - Ejemplo Wikipedia
 const results = await wiki('Colombia')
@@ -85,6 +85,64 @@ console.log(results)
   { title: "Historia de Colombia", snippet: "La historia de Colombia comienza con..." },
   { title: "Geografía de Colombia", snippet: "Colombia cuenta con regiones diversas..." }
 ]
+*/
+
+// TikTok
+const tk = await tiktokSearch('Bad Bunny')
+console.log(tk)
+/*
+{
+  "status": true,
+  "data": [
+    {
+      "title": "Funny dance",
+      "id": "7234567890",
+      "dl": "https://tikcdn.com/play/xxxx.mp4",
+      "watermark": "https://tikcdn.com/wmplay/xxxx.mp4",
+      "music": {
+        "title": "Dance Song",
+        "author": "DJ Test",
+        "url": "https://tikcdn.com/music/xxxx.mp3"
+      },
+      "duration": "0:30",
+      "cover": "https://tikcdn.com/cover/xxxx.jpg",
+      "author": {
+        "nickname": "user123",
+        "unique_id": "user12345"
+      },
+      "stats": {
+        "likes": 1200,
+        "comments": 45,
+        "shares": 10,
+        "views": 5000,
+        "downloads": 200
+      }
+    }
+  ]
+}
+*/
+
+// Pinterest
+const pin = await pinterestSearch('paisajes', 10)
+console.log(pin)
+/*
+{
+  "status": true,
+  "data": [
+    {
+      "title": "Paisaje de montaña",
+      "id": "987654321",
+      "description": "Hermoso paisaje al amanecer",
+      "username": "naturelover",
+      "full_name": "Nature Lover",
+      "followers": 1200,
+      "likes": 300,
+      "created": "2024-05-10",
+      "hd": "https://pinterest.com/img/large.jpg",
+      "mini": "https://pinterest.com/img/small.jpg"
+    }
+  ]
+}
 */
 ```
 </details>
