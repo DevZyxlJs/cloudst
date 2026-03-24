@@ -1,4 +1,4 @@
-> 🐇 **Proximamente ::** *Se agregará el Ytmp3, Ytmp4, RemoveBg, ChatGpt y Copilot*
+> 🐇 **Proximamente ::** *Se agregará el Ytmp3, Ytmp4, RemoveBg*
 
 ## 🫛 **CloudST - MODULO**
 
