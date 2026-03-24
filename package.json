@@ -25,6 +25,9 @@
   "homepage": "https://github.com/DevZyxlJs/cloudst#readme",
   "dependencies": {
     "axios": "^1.6.7",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "latest",
+    "yt-search": "latest",
+    "form-data": "latest"
   }
 }
