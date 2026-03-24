@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > Módulo básico — espero que te guste.  
 > Todo lo probé el día 23/03/2026:10:20 y funciona correctamente.  
-> Este proyecto es solo para divertirme y, con el tiempo, quedará obsoleto.
+> Este proyecto era solo para divertirme y, con el tiempo, quedará obsoleto y dejará de funcionar.
 > Puedes usar mi api que está mas avanzada y actualizada [Api](api.stellarwa.xyz)
 
 ---
