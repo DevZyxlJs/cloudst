@@ -33,10 +33,7 @@ const yt = await ytplay('Bad Bunny - Tití Me Preguntó', '320k')
 console.log(yt)
 ```
 
-## ⚙️ Notas
-- Los scrapers usan cabeceras y técnicas específicas para obtener enlaces directos.  
-- Algunos servicios pueden cambiar su HTML/API, por lo que el scraper podría necesitar ajustes.  
-- `ytplay` soporta bitrate `128k` y `320k`.
-
-## 📜 Licencia
-MIT © DevZyxlJs
+> [!NOTE]
+> Los scrapers usan cabeceras y técnicas específicas para obtener enlaces directos.  
+> Algunos servicios pueden cambiar su HTML/API, por lo que el scraper podría necesitar ajustes.  
+> `ytplay` soporta bitrate `128k` y `320k`.
