@@ -22,7 +22,7 @@ Diseñado para ser usado como **módulo** con `import` o `require` y ejecutado c
 
 ## 📦 Instalación
 
-```typescript
+```javascript
 npm install cloudst
 ```
 
