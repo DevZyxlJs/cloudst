@@ -155,6 +155,34 @@ console.log(pin)
 ```
 </details>
 
+<details>
+<summary><strong>🌵 Inteligencia Artificial</strong></summary>
+
+```javascript
+import { Copilot, ai } from 'cloudst'
+
+// Copilot
+const copilot = new Copilot()
+const r1 = await copilot.chat("Explica qué es Node.js", "default")
+console.log(r1)
+/*
+{
+  text: "Node.js es un entorno de ejecución para JavaScript basado en el motor V8 de Chrome..."
+}
+*/
+
+// ChatGPT (ConciseAI)
+const r2 = await ai.chat("Dame un resumen de la película Matrix")
+console.log(r2)
+/*
+{
+  status: true,
+  result: "Matrix es una película de ciencia ficción de 1999 dirigida por las hermanas Wachowski..."
+}
+*/
+```
+</details>
+
 ---
 
 > [!CAUTION]  
