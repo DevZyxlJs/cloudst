@@ -22,15 +22,13 @@ npm install cloudst
 
 ---
 
+## 🧩 Scrspers!
+
 <details>
-<summary><strong>🌵 Scrapers</strong> — Cloud</summary>
+<summary><strong>🌵 Downloaders</summary>
 
 ```javascript
-import { wiki, mediafiredl, fbDownloader, ytplay } from 'cloudst'
-
-// - Ejemplo Wikipedia
-const results = await wiki('Colombia')
-console.log(results)
+import { mediafiredl, fbDownloader, ytplay } from 'cloudst'
 
 // - Ejemplo Mediafire
 const mf = await mediafiredl('https://www.mediafire.com/file/xxxxxx')
