@@ -30,7 +30,7 @@ npm install cloudst
 
 ## 🌱 Ejemplo en Package.json
 
-```javascript
+```json
 "cloudst": "^1.0.5"
 ```
 
