@@ -14,12 +14,6 @@ Diseñado para ser usado como **módulo** con `import` o `require` y ejecutado c
 
 ---
 
-> [!CAUTION]  
-> El bot [Alya](https://github.com/DevZyxlJs/AlyaBot-MD) ya utiliza nuestro módulo en producción.  
-> Si encuentras algún error al implementarlo, puedes guiarte con su código como referencia práctica para la integración.
-
----
-
 ## 📦 Instalación
 
 ```bash
