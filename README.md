@@ -13,7 +13,7 @@ npm install cloudst
 
 ## 📂 Uso básico
 
-```bash
+```javascript
 import { wiki, mediafiredl, fbDownloader, ytplay } from 'cloudst'
 
 > Ejemplo Wikipedia
