@@ -1,0 +1,30 @@
+{
+  "name": "cloudst",
+  "version": "2.0",
+  "description": "Scraper modular con axios y cheerio",
+  "main": "index.js",
+  "keywords": [
+    "scraper",
+    "crawler",
+    "parser",
+    "axios",
+    "cheerio"
+  ],
+  "author": {
+    "name": "DevZyxlJs",
+    "url": "https://github.com/DevZyxlJs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevZyxlJs/cloudst.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DevZyxlJs/cloudst/issues"
+  },
+  "homepage": "https://github.com/DevZyxlJs/cloudst#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
