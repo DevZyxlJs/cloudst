@@ -33,7 +33,7 @@ npm install cloudst
 ## 🧩 Codigos!
 
 <details>
-<summary><strong>🌵 Downloaders</strong></summary>
+<summary><b>▶ Downloaders</b></summary>
 
 ```javascript
 import { mediafiredl, fbDownloader, ytplay } from 'cloudst'
@@ -79,7 +79,7 @@ console.log(yt)
 </details>
 
 <details>
-<summary><strong>🌵 Searchs</summary>
+<summary><b>▶ Searchs</b></summary>
 
 ```javascript
 import { wiki, tiktokSearch, pinterestSearch } from 'cloudst'
@@ -156,7 +156,7 @@ console.log(pin)
 </details>
 
 <details>
-<summary><strong>🌵 Inteligencia Artificial</strong></summary>
+<summary><b>▶ Inteligencia Artificial</b></summary>
 
 ```javascript
 import { Copilot, ai } from 'cloudst'
