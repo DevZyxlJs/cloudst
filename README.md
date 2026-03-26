@@ -30,7 +30,7 @@ npm install cloudst
 <summary><b>▶ Downloaders</b></summary>
 
 ```javascript
-import { mediafiredl, fbDownloader, ytplay } from 'cloudst'
+import { mediafiredl, fbDownloader, ytplay, ytmp4, ytmp3 } from 'cloudst'
 
 // - Ejemplo Mediafire
 const mf = await mediafiredl('https://www.mediafire.com/file/xxxxxx')
@@ -67,6 +67,26 @@ console.log(yt)
   published: "2 years ago",
   cdnUrl: "https://files.catbox.moe/xxxxxx.mp3",
   fileName: "Tití_Me_Preguntó.mp3"
+}
+*/
+
+// Ytmp4
+const video = await ytmp4("https://youtu.be/dQw4w9WgXcQ", "720")
+console.log(video)
+/*
+{
+  dl: "https://cdn.savenow.to/xxxx/video.mp4",
+  fileName: "Rick_Astley_-_Never_Gonna_Give_You_Up.mp4"
+}
+*/
+
+// Ytmp3
+const audio = await ytmp3("https://youtu.be/dQw4w9WgXcQ", "128k")
+console.log(audio)
+/*
+{
+  dl: "https://cdn.cnv.cx/xxxx/audio.mp3",
+  fileName: "rick_astley_never_gonna_give_you_up.mp3"
 }
 */
 ```
