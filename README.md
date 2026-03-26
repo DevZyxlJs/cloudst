@@ -1,4 +1,20 @@
-## 🫛 **CloudST - MODULO**
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9B59B6&center=true&vCenter=true&width=600&lines=@soyaxell09%2Fzenbot-scraper+%F0%9F%A4%96;Scrapers+%7C+Downloaders+%7C+Tools;Built+for+WhatsApp+Bots" alt="Typing SVG" />
+
+<br/>
+
+[![NPM Version](https://img.shields.io/npm/v/cloudst?color=9b59b6&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/cloudst)
+[![NPM Downloads](https://img.shields.io/npm/dm/cloudst?color=9b59b6&style=for-the-badge)](https://www.npmjs.com/package/cloudst)
+[![License](https://img.shields.io/npm/l/cloudst?color=9b59b6&style=for-the-badge)](LICENSE)
+[![Node](https://img.shields.io/node/v/cloudst?color=9b59b6&style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
+
+<br/>
+
+> Módulo npm de scrapers y herramientas para bots de WhatsApp.
+> Incluye descargadores, buscadores y mas...
+
+</div>
 
 ---
 
