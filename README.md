@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9B59B6&center=true&vCenter=true&width=600&lines=CloudDt+%F0%9F%A4%96;Scrapers+%7C+Downloaders+%7C+Tools;Built+for+WhatsApp+Bots" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9B59B6&center=true&vCenter=true&width=600&lines=CloudST+%F0%9F%A4%96;Scrapers+%7C+Downloaders+%7C+Tools;Built+for+WhatsApp+Bots" alt="Typing SVG" />
 
 <br/>
 
