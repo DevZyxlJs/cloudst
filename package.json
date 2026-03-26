@@ -1,6 +1,6 @@
 {
   "name": "cloudst",
-  "version": "1.0.7-rc.0",
+  "version": "1.0.5-rc.0",
   "description": "Modulo basico para los mini desarrolladores.",
   "main": "index.js",
   "keywords": [
