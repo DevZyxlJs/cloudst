@@ -2,6 +2,7 @@ const { wiki } = require('./cloud/wiki')
 const { mediafiredl, fbDownloader, ytplay } = require('./cloud/dl')
 const { tiktokSearch, pinterestSearch } = require('./cloud/searchs')
 const { Copilot, ai } = require('./cloud/ais')
+const { stickerlySearch, stickerlyDetail } = require('./cloud/stickerly')
 
 module.exports = {
   wiki,
@@ -10,6 +11,8 @@ module.exports = {
   ytplay,
   tiktokSearch,
   pinterestSearch,
-  Copilot, 
-  ai
+  Copilot,
+  ai,
+  stickerlySearch,
+  stickerlyDetail
 }
