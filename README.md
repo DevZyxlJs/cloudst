@@ -183,6 +183,83 @@ console.log(r2)
 ```
 </details>
 
+<details>
+<summary><b>▶ StickerLy</b></summary>
+
+```javascript
+import { stickerlySearch, stickerlyDetail } from 'cloudst'
+
+// - Ejemplo StickerLy Search
+const packs = await stickerlySearch('anime')
+console.log(packs)
+/*
+[
+  {
+    name: "Anime Stickers Pack",
+    author: "Usuario123",
+    stickerCount: 25,
+    viewCount: 10234,
+    exportCount: 543,
+    isPaid: false,
+    isAnimated: true,
+    thumbnailUrl: "https://cdn.sticker.ly/xxxx/tray.png",
+    url: "https://sticker.ly/s/abcd1234"
+  },
+  {
+    name: "Naruto Pack",
+    author: "OtakuFan",
+    stickerCount: 40,
+    viewCount: 20456,
+    exportCount: 1200,
+    isPaid: false,
+    isAnimated: false,
+    thumbnailUrl: "https://cdn.sticker.ly/yyyy/tray.png",
+    url: "https://sticker.ly/s/efgh5678"
+  }
+]
+*/
+
+// - Ejemplo StickerLy Detail
+const detail = await stickerlyDetail('https://sticker.ly/s/abcd1234')
+console.log(detail)
+/*
+{
+  name: "Anime Stickers Pack",
+  author: {
+    name: "Usuario123",
+    username: "usuario123",
+    bio: "Fan del anime",
+    followers: 500,
+    following: 120,
+    isPrivate: false,
+    avatar: "https://cdn.sticker.ly/avatar.png",
+    website: "https://usuario123.com",
+    url: "https://sticker.ly/u/usuario123"
+  },
+  stickers: [
+    {
+      fileName: "naruto.png",
+      isAnimated: false,
+      imageUrl: "https://cdn.sticker.ly/abcd/naruto.png"
+    },
+    {
+      fileName: "goku.gif",
+      isAnimated: true,
+      imageUrl: "https://cdn.sticker.ly/abcd/goku.gif"
+    }
+  ],
+  stickerCount: 25,
+  viewCount: 10234,
+  exportCount: 543,
+  isPaid: false,
+  isAnimated: true,
+  thumbnailUrl: "https://cdn.sticker.ly/abcd/tray.png",
+  url: "https://sticker.ly/s/abcd1234"
+}
+*/
+```
+</details>
+
 ---
 
 > [!CAUTION]  
